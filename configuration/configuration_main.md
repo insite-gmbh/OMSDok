@@ -10,11 +10,22 @@ Jedes OMS hat innerhalb eines Projektes eine eindeutige IP-Adresse die als "Iden
 ## Start des GUI
 Da das GUI web-basiert ist, reicht es aus, in der Adresszeile eines Browsers (bevorzugt Google Chrome!) die IP-Adresse des Rechners einzugeben, auf dem der OMSConfigService läuft. Per default verwendet das GUI den Port 5000.
 
-In diesem Beispiel läuft der OMSConfigService auf dem Rechner mit der IP 192.168.0.126. Daher geben Sie in der Adressleiste des Browsers 
+In diesem Beispiel läuft der OMSConfigService auf dem Rechner mit der IP 192.168.0.134. Daher geben Sie in der Adressleiste des Browsers 
 
-`192.168.0.126:5000`
+`192.168.0.134:5000`
 
 ein und drücken die Eingabe-Taste. Mit den üblichen Funktionen eines Browsers ("Lesezeichen") können Sie die URL zu dieser "Webseite" speichern.
+
+![URL-Zeile](./URL.PNG?raw=true "URL des GUI")
+
+## Hauptseite des GUI
+
+![Hauptseite](./MainPage.PNG?raw=true "Hauptseite des GUI")
+
+### Projektverwaltung
+Über den Menüpunkt in der rechten oberen Ecke (roter Kreis) wechselt man auf die Projektverwaltung. 
+
+
 
 
 ## [Abschnitt 1](./configuration_ch1.md)

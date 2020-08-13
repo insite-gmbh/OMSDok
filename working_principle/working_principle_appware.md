@@ -42,5 +42,5 @@ Der OMSConfigService versucht ebenfalls eine Verbindung zu einer Leitsteuerung a
 
 ## Navigation
 ## [Konfiguration](../configuration/configuration_main.md)
-## [Funktionsprinzip](./working_principle_main.md)
+## [Zurück zur Hauptseite Funktionsprinzip](./working_principle_main.md)
 ## [Zurück zur Hauptseite](../README.md)
