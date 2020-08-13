@@ -34,6 +34,10 @@ Außer der Simulationsumgebung brauchen muss für alle Leitsteuerung eine IP-Adr
 
 Der OMSConfigService versucht ebenfalls eine Verbindung zu einer Leitsteuerung aufzubauen. Damit können in der Konfigurations-Oberfläche diverse Listen automatisch ausgefüllt werden. Z.B. kann bei der Vergabe von Zielen oder Sperrbereichen auf eine Liste zurückgegriffen werden, die von der Leitsteuerung abgefragt wurde und damit garantiert, dass keine unbekannten Ziele oder Sperrbereiche verwendet werden.
 
+## Übersicht
+
+![Datenaustausch mit der Leitsteuerung](./OMSandCS.png?raw=true "Datenaustausch mit der FTS-Leitsteuerung")
+
 
 
 ## Navigation
