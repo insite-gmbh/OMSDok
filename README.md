@@ -9,3 +9,5 @@ Das OMS dient als "Eingabe"-Terminal für Fahraufträge, der Visualierung von di
 ## [2. Konfiguration des OMS](./configuration/configuration_main.md)
 
 ## [3. Installation des OMS auf dem Zielsystem](./installation/installation_main.md)
+
+## [4. Die AppWare des OMS](./appware/appware_main.md)
