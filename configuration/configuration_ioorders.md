@@ -7,7 +7,7 @@ Für jeden Hardware-Eingang kann auf dieser Seite festgelegt werden, ob und wenn
 
 Allgemeine Informationen zu der Digital-IO eines OMS finden Sie [**hier**](./configuration_iogeneral.md).
 
-*(Das OMS1 in dem gezeigten Beispiel verfügt über 20 Eingänge, entsprechend werden auf dieser Seite normlerweise auch 20 Eingänge angezeigt, der Screenshot ist jedoch reduziert auf die ersten 6 Eingänge.)*
+*(Das OMS1 in dem gezeigten Beispiel verfügt über 20 Eingänge, entsprechend werden auf dieser Seite normalerweise auch 20 Eingänge angezeigt, der Screenshot ist jedoch reduziert auf die ersten 6 Eingänge.)*
 
 Die Hardware-Eingänge können auch für das Sperren von Fahrkursbereichen (Tore) oder den Feueralarm verwendet werden und stehen dann nicht mehr für die Erzeugung von Aufträgen zur Verfügung. Ein bereits verwendeter Eingang wird gelb hinterlegt dargestellt. Wenn wie im dargestellten Fall Eingang 3 zur Auftragserzeugung verwendet werden soll, muss er vorher bei seiner anderen Verwendungsstelle (Feueralarm oder ein Tor) freigegeben werden. Ein Auftrag wiederum gilt als "freigegeben", wenn sein Name leer ist.
 

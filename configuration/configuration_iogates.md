@@ -6,7 +6,7 @@ Auf dieser Seite kann für jeden Hardware-Eingang festgelegt werden, ob und wenn
 
 Allgemeine Informationen zu der Digital-IO eines OMS finden Sie [**hier**](./configuration_iogeneral.md).
 
-*(Das OMS1 in dem gezeigten Beispiel verfügt über 20 Eingänge, entsprechend werden auf dieser Seite normlerweise auch 20 Eingänge angezeigt, der Screenshot ist jedoch reduziert auf die ersten 6 Eingänge.)*
+*(Das OMS1 in dem gezeigten Beispiel verfügt über 20 Eingänge, entsprechend werden auf dieser Seite normalerweise auch 20 Eingänge angezeigt, der Screenshot ist jedoch reduziert auf die ersten 6 Eingänge.)*
 
 Die Hardware-Eingänge können auch für das Auslösen von Aufträgen oder den Feueralarm verwendet werden und stehen dann nicht mehr in der Torkonfiguration zur Verfügung. Ein bereits verwendeter Eingang wird gelb hinterlegt dargestellt. Im dargestellten Fall sind die Eingänge 1 und 2 bereis belegt. 
 
