@@ -3,7 +3,7 @@
 
 ![Aufträge](./ioorders.png?raw=true "Aufträge konfigurieren")
 
-Für jeden Hardware-Eingang kann auf dieser Seite festgelegt werden, ob und wenn ja, welche Art von Transportauftrag in der FTS-Leitsteuerung erzeugt wird, wenn dieser Eingang seinen Status ändert. 
+Für jeden Hardware-Eingang kann auf dieser Seite festgelegt werden, ob und wenn ja, welche Art von Transportauftrag in der FTS-Leitsteuerung erzeugt wird, wenn der Eingang seinen Status ändert. 
 
 Allgemeine Informationen zu der Digital-IO eines OMS finden Sie [**hier**](./configuration_iogeneral.md).
 

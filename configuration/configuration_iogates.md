@@ -2,7 +2,7 @@
 ## IO-Konfiguration Tore
 ![Tore](./iogates.PNG?raw=true "Tore konfigurieren")
 
-Für jeden Hardware-Eingang kann auf dieser Seite festgelegt werden, ob und wenn ja, welche Art von Aktion in der FTS-Leitsteuerung angestoßen wird, wenn dieser Eingang seinen Status ändert. Bisher haben diese Aktionen die Sperrung eines Fahrursbereiches zur Folge. Als Aktion wird daher hier immer der Name des zu sperrenden Fahrkursbereiches angegeben. Das Incubed-System verwendet hierzu benannte "Resourcen", in BeeWaTecs BeeLoCCore-System werden im Fahrkurslayout benannte "Areas" definiert. 
+Auf dieser Seite kann für jeden Hardware-Eingang festgelegt werden, ob und wenn ja, welche Art von Aktion in der FTS-Leitsteuerung angestoßen wird, wenn der Eingang seinen Status ändert. Bisher haben diese Aktionen die Sperrung eines Fahrursbereiches zur Folge. Als Aktion wird daher immer der Name des zu sperrenden Fahrkursbereiches angegeben. Das Incubed-System verwendet hierzu benannte "Resourcen", in BeeWaTecs BeeLoCCore-System werden im Fahrkurslayout benannte "Areas" definiert. 
 
 Allgemeine Informationen zu der Digital-IO eines OMS finden Sie [**hier**](./configuration_iogeneral.md).
 
