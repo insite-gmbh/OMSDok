@@ -11,6 +11,8 @@ Allgemeine Informationen zu der Digital-IO eines OMS finden Sie [**hier**](./con
 
 Die Hardware-Eingänge können auch für das Sperren von Fahrkursbereichen (Tore) oder den Feueralarm verwendet werden und stehen dann nicht mehr für die Erzeugung von Aufträgen zur Verfügung. Ein bereits verwendeter Eingang wird gelb hinterlegt dargestellt. Wenn wie im dargestellten Fall Eingang 3 zur Auftragserzeugung verwendet werden soll, muss er vorher bei seiner anderen Verwendungsstelle (Feueralarm oder ein Tor) freigegeben werden. Ein Auftrag wiederum gilt als "freigegeben", wenn sein Name leer ist.
 
+## Konfigurationstabelle
+
 Für jeden Eingang gibt es eine Konfigurations-Zeile in der Tabelle. Die Spalten im einzelnen:
 
 ### Holen-Ziel, Bringen-Ziel
@@ -58,5 +60,6 @@ Wenn der Status eines Auftrags angezeigt werden soll, muss dem Auftrag ein Hardw
 
 
 ## Navigation
+## [Übersicht zu den Digital IOs des OMS](./configuration_iogeneral.md)
 ## [Zurück zur Hauptseite der Konfiguration](./configuration_main.md)
 ## [Zurück zur Hauptseite](../README.md)

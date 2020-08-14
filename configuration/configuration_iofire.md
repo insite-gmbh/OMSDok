@@ -23,5 +23,6 @@ Hier mit wird festgelegt, ob der Feueralarm mit einer steigenden/positiven Signa
 Als Bestätigung erscheint für einen kurzen Moment ein grünes Fenster mit dem Text "GESPEICHERT" und der Anzahl der Feueralarme, die über das OMS ausgewertet werden (aktuell entweder 0 oder 1).
 
 ## Navigation
+## [Übersicht zu den Digital IOs des OMS](./configuration_iogeneral.md)
 ## [Zurück zur Hauptseite der Konfiguration](./configuration_main.md)
 ## [Zurück zur Hauptseite](../README.md)

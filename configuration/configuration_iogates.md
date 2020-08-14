@@ -12,6 +12,9 @@ Die Hardware-Eingänge können auch für das Auslösen von Aufträgen oder den F
 
 Die Torstatus werden in der AppWare visualisiert. Sie erscheinen auf der Oberfläche mit dem jeweils vergebenen Namen und sind grün (frei) oder rot (gesperrt) hinterlegt.
 
+Weitere Informationen dazu finden Sie im Kapitel zur [**AppWare**](../appware/appware_main.md).
+
+## Konfigurationstabelle
 Für jeden Eingang gibt es eine Konfigurations-Zeile in der Tabelle. Die Spalten im einzelnen:
 
 ### Name
@@ -36,5 +39,6 @@ Als Bestätigung erscheint für einen kurzen Moment ein grünes Fenster mit dem 
 
 
 ## Navigation
+## [Übersicht zu den Digital IOs des OMS](./configuration_iogeneral.md)
 ## [Zurück zur Hauptseite der Konfiguration](./configuration_main.md)
 ## [Zurück zur Hauptseite](../README.md)
