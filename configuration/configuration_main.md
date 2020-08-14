@@ -23,9 +23,25 @@ ein und drücken die Eingabe-Taste. Mit den üblichen Funktionen eines Browsers 
 ![Hauptseite](./MainPage.PNG?raw=true "Hauptseite des GUI")
 
 ### Projektverwaltung
-Über den Menüpunkt in der rechten oberen Ecke (roter Kreis) wechselt man auf die Projektverwaltung. 
+Über den Menüpunkt in der rechten oberen Ecke (roter Rahmen) wechselt man auf die [**Projektverwaltung**](./configuration_project.md)
 
+### OMS hinzufügen
+Über den Menüpunkt in der linken oberen Ecke (grüner Rahmen) kann ein neues OMS im aktuellen Projekt angelegt werden. Es wird automatisch die Seite für die Einstellungen des neuen OMS angezeigt. Zu den Einstellungen folgt weiter unten mehr.
 
+![Neues OMS angelegt](./NewOMS.PNG?raw=true "Einstellungen für neues OMS")
+
+### Auswahl der bereits konfigurierten OMS
+Die Liste auf der linken Seite (blauer Rahmen) zeigt die bereits für das aktuelle Projekt konfigurierten OMS ("Davids Laptop", "OMS1"). Die jeweiligen Untermenüpunkte können durch eine Klick auf die Pfeilsymbole (gelbe Kreise) geöffnet und geschlossen werden. Für das OMS1 sind hier exemplarisch alle Untermenüs zu sehen.
+
+Erklärungen und Hinweise zu den einzelnen Menüpunkten finden Sie in diesen Dokumenten:
+
+#### [Einstellungen eines OMS](./configuration_settings.md)
+
+#### [Die Digital IOs des OMS](./configuration_iogeneral.md)
+#### [IO-Konfiguration Aufträge](./configuration_ioorders.md)
+#### [IO-Konfiguration Tore](./configuration_iogates.md)
+#### [IO-Konfiguration Feueralarm](./configuration_iofire.md)
+#### [Konfiguration Soft Keys](./configuration_softkeys.md)
 
 
 ## [Abschnitt 1](./configuration_ch1.md)
