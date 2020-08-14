@@ -28,19 +28,7 @@ Dem erzeugten Auftrag kann hier ein Name gegeben werden, der dann u.a. in der Me
 Als Bestätigung erscheint für einen kurzen Moment ein grünes Fenster mit dem Text "GESPEICHERT" und der Anzahl der Aufträge, die für das OMS definiert sind.
 
 ## Anzeige des Auftragsstatus
-Der Status eines Auftrags wird direkt über die Farbe des Soft Keys / Buttons auf dem GUI der AppWare angezeigt.
-Die Darstellung des Status hängt vom Auftragstyp (Antransport oder Abtransport) ab. Folgende Status werden visualisiert:
-
-| Auftragsbearbeitungs-Status      | Auftragstyp     | Soft Key Farbe |
-| -------------------------------- | --------------- | -------------- |
-| Auftrag erzeugt                  | -               | ein            |
-| Fahrzeug holt                    | Antransport     | ein            |
-|                                  | Abtransport     | blinkt langsam |
-| Fahrzeug bringt                  | Antransport     | blinkt langsam |
-|                                  | Abtransport     | aus            |
-| Fertig / Abgebrochen             | -               | aus            |
-| Verzögerung bei der Bearbeitung  | -               | blinkt schnell |
-
+Der Status eines Auftrags wird direkt über die Farbe des Soft Keys / Buttons auf dem GUI der AppWare angezeigt. Die Darstellung des Status hängt vom Auftragstyp (Antransport oder Abtransport) ab. Wie und welche Status visualisiert werden finden Sie im Kapitel zur  [**AppWare**](../appware/appware_main.md).
 
 
 ## Navigation
