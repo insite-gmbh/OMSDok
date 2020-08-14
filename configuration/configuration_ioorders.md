@@ -1,7 +1,7 @@
 # Konfiguration des OMS
 ## IO-Konfiguration Aufträge
 
-![Einstellungen](./ioorders.png?raw=true "Einstellungen")
+![Aufträge](./ioorders.png?raw=true "Aufträge konfigurieren")
 
 Für jeden Hardware-Eingang kann auf dieser Seite festgelegt werden, ob und wenn ja, welche Art von Transportauftrag in der FTS-Leitsteuerung erzeugt wird, wenn dieser Eingang seinen Status ändert. 
 
@@ -30,7 +30,17 @@ Die Entprellzeit in Millisekunden, die ein Eingang ein stabiles Signal liefern m
 Hier mit wird festgelegt, ob der Auftrag mit einer steigenden/positiven Signalflanke (offen -> geschlossen, 0 -> 1, aus -> an) oder mit einer fallenden/negativen Signalflanke (geschlossen -> offen, 1 -> 0, an -> aus) erzeugt wird. Per default ist die Checkbox leer, d.h. der Auftrag wird mit positiver Signalflanke erzeugt.
 
 ## Anzeige des Auftragsstatus
-Wenn der Status eines Auftrags angezeigt werden soll, muss dem Auftrag ein Hardware-Ausgang zugeordnet werden. An diesen ist in der Regel eine Leuchte angeschlossen. Die Darstellung des Status hängt vom Auftragstyp (Antransport oder Abtransport) ab. Folgende Status werden damit visualiert:
+Wenn der Status eines Auftrags angezeigt werden soll, muss dem Auftrag ein Hardware-Ausgang zugeordnet werden. An diesen ist in der Regel eine Leuchte angeschlossen. Die Darstellung des Status hängt vom Auftragstyp (Antransport oder Abtransport) ab. Folgende Status werden damit visualisiert:
+
+| Auftragsbearbeitungs-Status      | Auftragstyp     | Leuchte        |
+| -------------------------------- | --------------- | -------------- |
+| Auftrag erzeugt                  | egal            | ein            |
+| Fahrzeug holt                    | Antransport     | ein            |
+|                                  | Abtransport     | blinkt langsam |
+| Fahrzeug bringt                  | Antransport     | blinkt langsam |
+|                                  | Abtransport     | aus            |
+| Fertig / Abgebrochen             | egal            | aus            |
+| Verzögerung bei der Bearbeitung  | egal            | blinkt schnell |
 
 
 
