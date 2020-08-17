@@ -9,9 +9,10 @@ Allgemeine Informationen zu der Digital-IO eines OMS finden Sie [**hier**](./con
 Die Bedienelemente von links nach rechts:
 
 ### Eingang
-Hier wird der Eingang aus der Liste der vorhandenen Eingänge ausgewählt. Wenn der ausgewählte Eingang in Folge gelb hinterlegt erscheint, dann wird er bereits an anderer Stelle (Auftragserzeugung oder Torekonfiguration) verwendet und muss dort erst freigegeben werden.
+Hier wird der Eingang für das Feueralarm-Signal aus der Liste der vorhandenen Eingänge ausgewählt. Wenn der ausgewählte Eingang in Folge gelb hinterlegt erscheint, dann wird er bereits an anderer Stelle (Auftragserzeugung oder Torekonfiguration) verwendet und muss dort erst freigegeben werden.
 
-Die Entprellzeit in Millisekunden, die ein Eingang ein stabiles Signal liefern muss, um als gültiger Status bewertet zu werden. 
+### Entprellzeit
+Die Entprellzeit in Millisekunden, für die ein Eingang ein stabiles Signal liefern muss, um als gültiger Status bewertet zu werden. 
 
 ### Fallende Flanke
 Hier mit wird festgelegt, ob der Feueralarm mit einer steigenden/positiven Signalflanke (offen -> geschlossen, 0 -> 1, aus -> an) oder mit einer fallenden/negativen Signalflanke (geschlossen -> offen, 1 -> 0, an -> aus) als anstehend bewertet wird. Per default ist die Checkbox angehakt, d.h. der Feueralarm steht nach einer negativen Signalflanke an.

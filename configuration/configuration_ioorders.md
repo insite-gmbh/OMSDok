@@ -3,7 +3,7 @@
 
 ![Aufträge](./ioorders.png?raw=true "Aufträge konfigurieren")
 
-Für jeden Hardware-Eingang kann auf dieser Seite festgelegt werden, ob und wenn ja, welche Art von Transportauftrag in der FTS-Leitsteuerung erzeugt wird, wenn der Eingang seinen Status ändert. 
+Auf dieser Seite kann für jeden Hardware-Eingang festgelegt werden, ob und wenn ja, welche Art von Transportauftrag in der FTS-Leitsteuerung erzeugt wird, wenn der Eingang seinen Status ändert. 
 
 Allgemeine Informationen zu der Digital-IO eines OMS finden Sie [**hier**](./configuration_iogeneral.md).
 
@@ -23,7 +23,7 @@ Die Zielnamen können frei vergeben werden, im Idealfall hat der OMSConfigServic
 Hier sind die Einstellungen "Abtransport" oder "Antransport" möglich. Die Einstellung hat keine Auswirkung auf die Generierung des Auftrags in der Leitsteuerung. Vielmehr wird sie verwendet, um den aktuellen Auftragsstatus in unterschiedlicher Art und Weise anzuzeigen. Mehr dazu unten.
 
 ### Auftragsname
-Dem erzeugten Auftrag kann hier ein Name gegeben werden, der dann u.a. in der Meldungsliste der AppWare verwendet wird. 
+Hier kann dem erzeugten Auftrag ein Name gegeben werden, der dann u.a. in der Meldungsliste der AppWare verwendet wird. 
 
 **Eine Auftragskonfiguration ist nur gültig, wenn der Name ausgefüllt und nicht leer ist.**
 
@@ -31,7 +31,7 @@ Dem erzeugten Auftrag kann hier ein Name gegeben werden, der dann u.a. in der Me
 Hier kann dem Auftrag, der über den jeweiligen Eingang erzeugt wird, ein Hardware-Ausgang zugeordnet werden, mit dem der Auftragsstatus über eine Leuchte visualisiert werden kann. Mehr dazu unten.
 
 ### Entprellzeit
-Die Entprellzeit in Millisekunden, die ein Eingang ein stabiles Signal liefern muss, um als gültiger Status bewertet zu werden. 
+Die Entprellzeit in Millisekunden, für die ein Eingang ein stabiles Signal liefern muss, um als gültiger Status bewertet zu werden. 
 
 ### Fallende Flanke
 Hier mit wird festgelegt, ob der Auftrag mit einer steigenden/positiven Signalflanke (offen -> geschlossen, 0 -> 1, aus -> an) oder mit einer fallenden/negativen Signalflanke (geschlossen -> offen, 1 -> 0, an -> aus) erzeugt wird. Per default ist die Checkbox leer, d.h. der Auftrag wird mit positiver Signalflanke erzeugt.

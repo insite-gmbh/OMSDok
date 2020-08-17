@@ -2,7 +2,7 @@
 ## IO-Konfiguration Tore
 ![Tore](./iogates.PNG?raw=true "Tore konfigurieren")
 
-Auf dieser Seite kann für jeden Hardware-Eingang festgelegt werden, ob und wenn ja, welche Art von Aktion in der FTS-Leitsteuerung angestoßen wird, wenn der Eingang seinen Status ändert. Bisher haben diese Aktionen die Sperrung eines Fahrursbereiches zur Folge. Als Aktion wird daher immer der Name des zu sperrenden Fahrkursbereiches angegeben. Das Incubed-System verwendet hierzu benannte "Resourcen", in BeeWaTecs BeeLoCCore-System werden im Fahrkurslayout benannte "Areas" definiert. 
+Auf dieser Seite kann für jeden Hardware-Eingang festgelegt werden, ob und wenn ja, welche Art von Aktion in der FTS-Leitsteuerung angestoßen wird, wenn der Eingang seinen Status ändert. Bisher haben diese Aktionen die Sperrung eines Fahrkursbereiches zur Folge. Als Aktion wird daher immer der Name des zu sperrenden Fahrkursbereiches angegeben. Das Incubed-System verwendet hierzu benannte "Resourcen", in BeeWaTecs BeeLoCCore-System werden im Fahrkurslayout benannte "Areas" definiert. 
 
 Allgemeine Informationen zu der Digital-IO eines OMS finden Sie [**hier**](./configuration_iogeneral.md).
 
@@ -26,7 +26,7 @@ Der Name des zu sperrenden Fahrkursbereiches. Dieser kann frei vergeben werden a
 Eine Konfigurationszeile ist gültig, solange hier ein Name eingetragen ist. Ein leeres Feld hat ein Löschen der Konfiguration für den jeweiligen Eingang zur Folge.
 
 ### Entprellzeit
-Die Entprellzeit in Millisekunden, die ein Eingang ein stabiles Signal liefern muss, um als gültiger Status bewertet zu werden. 
+Die Entprellzeit in Millisekunden, für die ein Eingang ein stabiles Signal liefern muss, um als gültiger Status bewertet zu werden. 
 
 ### Fallende Flanke
 Hier mit wird festgelegt, ob das Tor mit einer steigenden/positiven Signalflanke (offen -> geschlossen, 0 -> 1, aus -> an) oder mit einer fallenden/negativen Signalflanke (geschlossen -> offen, 1 -> 0, an -> aus) als geschlossen bewertet wird. Per default ist die Checkbox angehakt, d.h. das Tor ist nach negativer Signalflanke geschlossen.
