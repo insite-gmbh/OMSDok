@@ -21,13 +21,17 @@ Durch "Betätigen" eines Soft Keys wird der dafür konfigurierte Auftrag erzeugt
 [**Hier**](./appware_runorder.md) finden Sie weitere Informationen zu diesem Thema.
 
 ## Weitere Bedienelemente
+![Header](Header.png?raw=true "Header")
 
-### Refresh (roter Kreis)
-Durch einen Klick auf den Refresh-Button wird ein erneutes Laden der Daten ausgelöst.
+### OMS Name (hellblauer Rahmen)
+Der konfigurierte Name des OMS.
 
 ### Expertenansicht (grüner Kreis)
 Wechselt in eine andere Ansicht mit weitergehenden Informationen.
 [**Hier**](./appware_expertview.md) finden Sie mehr dazu.
+
+### Refresh (gelber Kreis)
+Durch einen Klick auf den Refresh-Button wird ein erneutes Laden der Daten ausgelöst.
 
 ### Shutdown (roter Kreis)
 Öffnet ein Kontextmenü für verschiedene Neustart-Optionen.

@@ -20,20 +20,16 @@ Details hierzu finden sich in
 [Konfiguration des OMS](../configuration/configuration_main.md)
 .
 
-Neben den Hardware-Eigenschaften (Anzahl E/A etc.) und beispielsweise der Zuordnung von FTS-Aufträgen zu GUI-Buttons wird in der Konfiguration die 
+Neben den Hardware-Eigenschaften (Anzahl E/A etc.) und beispielsweise der Zuordnung von FTS-Aufträgen zu GUI-Buttons wird in der Konfiguration die URLs des **Konfigurations-WebAPIs** und des **Update-WebAPIs** festgelegt.
 
-  **IP-Adresse des Konfigurationsservers**
-
-festgelegt.
-
-Diese ist bei einem neu installierten OMS nicht bekannt oder kann sich während des Laufzeit des Projektes auch einmal ändern.
+Diese sind bei einem neu installierten OMS nicht bekannt oder können sich während des Laufzeit des Projektes auch einmal ändern.
 
 ## Bootstrapping
-Beim allerersten Start hat das OMS noch keine Konfiguration und kennt daher die IP-Adresse des Konfigurationsservers noch nicht. Weiterhin kann es nach einer Umstellung der IP-Adressen dazu kommen, dass die bisher verwendete IP-Adresse nicht mehr gültig ist. In diesen Fällen versucht der Bootstrapper den OMSConfigService durch einen UDP-Broadcast im Netzwerk zu finden. 
+Beim allerersten Start hat das OMS noch keine Konfiguration und kennt daher die IP-Adresse des Konfigurationsservers noch nicht. Weiterhin kann es nach Netzwerkänderungen dazu kommen, dass die bisher verwendete IP-Adresse nicht mehr gültig ist. In diesen Fällen versucht der Bootstrapper den OMSConfigService durch einen UDP-Broadcast im Netzwerk zu finden. 
 
 Bei einem Neustart des OMS führt der Bootstrapper die folgenden Schritte durch:
 
-![Bootstrapping der AppWare](./BootstrapperFlow.png?raw=true "OMS Bootstrapping der AppWare")
+![Bootstrapping der AppWare](./BootstrapperFlow3.png?raw=true "OMS Bootstrapping der AppWare")
 
 
 Der Bootstrapper bleibt auch nach dem "initialen" Download der AppWare aktiv. Damit sind nach einem Neustart des OMS jederzeit Updates der AppWare möglich. 

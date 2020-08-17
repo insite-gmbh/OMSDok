@@ -19,7 +19,7 @@ Die OMS AppWare stellt ein web-basiertes GUI bereit, für das folgende Funktione
 
   * Definieren eines Hardware-Eingangs, der ein Feueralarm-Signal bereitstellt. 
 
-Damit die AppWare die entsprechenden Funktionen ("Generiere Auftrag", "Sperre Bereich A") auslösen kann, muss sie mit einer FTS-Leitsteuerung verbunden sein. Im Moment werden 3 Leitsteuerungen unterstützt:
+Damit die AppWare die entsprechenden Funktionen ("Generiere Auftrag", "Sperre Bereich A") auslösen kann, muss sie mit einer FTS-Leitsteuerung verbunden sein. Im Moment werden 3 unterschiedliche Leitsteuerungen unterstützt:
 
 * Incubed
   * Leitsteuerung/FMS der Firma incubed
