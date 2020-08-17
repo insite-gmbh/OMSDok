@@ -32,7 +32,7 @@ Die Bedienelemente von oben nach unten, links nach rechts:
 
 * Anzahl Soft Keys
 
-  Neben einem Anstoß durch digitale Hardware-Eingänge können Aufträge auch über Soft-Keys auf dem Touch-Panel des OMS erzeugt werden. Die Anzahl der Soft-Keys (derzeit 0, 4, 8 oder 16) hat Auswirkungen auf das Layout des GUI der AppWare. Weitere Informationen zur AppWare finden Sie [**hier**](../appware/appware_main.md).
+  Neben einem Anstoß durch digitale Hardware-Eingänge können Aufträge auch über Soft-Keys auf dem Touch-Panel des OMS erzeugt werden. Die Anzahl der Soft-Keys hat Auswirkungen auf das Layout des GUI der AppWare, jeweils 4 Stück werden in einer Reihe dargestellt, bis zu 16 Soft Keys können dargetellt werden. Die Einstellung hier hat lediglich Auswirkungen auf die Größe der Konfigurationstabelle. Weitere Informationen zur AppWare finden Sie [**hier**](../appware/appware_main.md).
 
 * IP-Adresse
   
