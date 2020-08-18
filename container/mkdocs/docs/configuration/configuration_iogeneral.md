@@ -28,14 +28,8 @@ Die Ausgänge werden derzeit ausschließlich zur Anzeige der Status von Aufträg
 Weitere Informationen dazu finden Sie auf [**dieser Seite**](./configuration_ioorders.md) unten.
 
 
-
-## Navigation
-
 Zur Konfiguration der Digital-IO finden Sie hier mehr Informationen:
 
 #### [IO-Konfiguration Aufträge](./configuration_ioorders.md)
 #### [IO-Konfiguration Tore](./configuration_iogates.md)
 #### [IO-Konfiguration Feueralarm](./configuration_iofire.md)
-
-## [Zurück zur Hauptseite der Konfiguration](./configuration_main.md)
-## [Zurück zur Hauptseite](../README.md)

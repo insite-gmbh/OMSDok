@@ -43,5 +43,4 @@ Theoretisch kann es passieren, dass mehr als ein OMSConfigService im Netzwerk ak
 Jedes OMS ist eindeutig durch seine IP-Adresse identifizierbar. Die Konfiguration wird - wie oben bereits erwähnt - dieser IP-Adresse im OMSConfigService zugeordnet. Bei größeren Anlagen empfiehlt es sich, den OMSConfigService auf einem dauerhaft verfügbaren Server zu installieren, sodass Änderungen an der AppWare an zentraler Stelle vorgenommen werden können. Durch einen Restart des OMS bzw. dem Auslösen der Funktion "Update installieren" über dessen GUI, können die OMS schnell und einfach aktualisiert werden.
 
 ## [Funktionsprinzip der OMS AppWare](./working_principle_appware.md)
-## Navigation
-## [Zurück zur Hauptseite](../README.md)
+

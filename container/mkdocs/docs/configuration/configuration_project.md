@@ -41,7 +41,3 @@ Der Name der Projektdatei kann nicht verändert werden, sondern wird hier ledigl
 
  *Sie können sich den Dateinamen aus diesem Feld in die Zwischenablage kopieren, die Datei dann im Explorer lokalisieren und so vor größeren Änderungen eine Sicherungskopie anlegen.*  
 
-
-## Navigation
-## [Zurück zur Hauptseite der Konfiguration](./configuration_main.md)
-## [Zurück zur Hauptseite](../README.md)

@@ -30,7 +30,3 @@ Als Bestätigung erscheint für einen kurzen Moment ein grünes Fenster mit dem 
 ## Anzeige des Auftragsstatus
 Der Status eines Auftrags wird direkt über die Farbe des Soft Keys / Buttons auf dem GUI der AppWare angezeigt. Die Darstellung des Status hängt vom Auftragstyp (Antransport oder Abtransport) ab. Wie und welche Status visualisiert werden finden Sie im Kapitel zur  [**AppWare**](../appware/appware_main.md).
 
-
-## Navigation
-## [Zurück zur Hauptseite der Konfiguration](./configuration_main.md)
-## [Zurück zur Hauptseite](../README.md)

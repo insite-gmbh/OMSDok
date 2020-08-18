@@ -43,8 +43,3 @@ Erklärungen und Hinweise zu den einzelnen Menüpunkten finden Sie in diesen Dok
 #### [IO-Konfiguration Feueralarm](./configuration_iofire.md)
 #### [Konfiguration Soft Keys](./configuration_softkeys.md)
 
-
-## [Abschnitt 1](./configuration_ch1.md)
-
-## Navigation
-## [Zurück zur Hauptseite](../README.md)

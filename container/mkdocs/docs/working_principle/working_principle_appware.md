@@ -38,9 +38,4 @@ Der OMSConfigService versucht ebenfalls eine Verbindung zu einer Leitsteuerung a
 
 ![Datenaustausch mit der Leitsteuerung](./OMSandCS.png?raw=true "Datenaustausch mit der FTS-Leitsteuerung")
 
-
-
-## Navigation
 ## [Konfiguration](../configuration/configuration_main.md)
-## [Zurück zur Hauptseite Funktionsprinzip](./working_principle_main.md)
-## [Zurück zur Hauptseite](../README.md)

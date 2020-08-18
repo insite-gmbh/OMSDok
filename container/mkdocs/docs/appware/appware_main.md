@@ -38,9 +38,3 @@ Durch einen Klick auf den Refresh-Button wird ein erneutes Laden der Daten ausge
 
 [**Hier**](./appware_shutdown.md) finden Sie mehr dazu.
 
-## Expertenansicht
-## Shutdown-Menü
-
-
-## Navigation
-## [Zurück zur Hauptseite](../README.md)

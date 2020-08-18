@@ -23,7 +23,3 @@ Manchmal werden Fahrzeuge an der reibungslosen Bearbeitung von Aufträgen gehind
 
 ![Auftrag verzögert](./OrderSoftKeys8Delayed.png?raw=true "Auftragsbearbeitung verzögert.")
 
-
-## Navigation
-## [Zurück zur Hauptseite der AppWare](./appware_main.md)
-## [Zurück zur Hauptseite](../README.md)

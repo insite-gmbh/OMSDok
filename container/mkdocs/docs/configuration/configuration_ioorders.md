@@ -56,10 +56,4 @@ Wenn der Status eines Auftrags angezeigt werden soll, muss dem Auftrag ein Hardw
 | Verzögerung bei der Bearbeitung  | -               | blinkt schnell |
 
 
-
-
-
-## Navigation
 ## [Übersicht zu den Digital IOs des OMS](./configuration_iogeneral.md)
-## [Zurück zur Hauptseite der Konfiguration](./configuration_main.md)
-## [Zurück zur Hauptseite](../README.md)

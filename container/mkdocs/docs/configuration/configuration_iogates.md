@@ -37,8 +37,4 @@ Hier mit wird festgelegt, ob das Tor mit einer steigenden/positiven Signalflanke
 
 Als Bestätigung erscheint für einen kurzen Moment ein grünes Fenster mit dem Text "GESPEICHERT" und der Anzahl der Tore, die über das OMS ausgewertet werden.
 
-
-## Navigation
 ## [Übersicht zu den Digital IOs des OMS](./configuration_iogeneral.md)
-## [Zurück zur Hauptseite der Konfiguration](./configuration_main.md)
-## [Zurück zur Hauptseite](../README.md)

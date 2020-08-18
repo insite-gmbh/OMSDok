@@ -39,8 +39,3 @@ Die Bedienelemente von oben nach unten, links nach rechts:
   Hier legen Sie die IP-Adresse des OMS im Netzwerk fest. Das OMS frägt beim Hochlauf oder auf eine Benutzereingabe hin beim OMSConfigService per http seine AppWare an. Der OMSConfigService verwendet die IP-Adresse des anfragenden OMS um die Konfigurationsdaten des OMS in seiner Datenbank zu suchen um sie anschließend an das OMS zurück zu senden.
   
   **Die IP-Adresse muss innerhalb des aktuell ausgewählten Projektes eindeutig sein, sonst kann der OMSConfigService die AppWare nicht an das OMS übertragen.**
-
-
-## Navigation
-## [Zurück zur Hauptseite der Konfiguration](./configuration_main.md)
-## [Zurück zur Hauptseite](../README.md)
