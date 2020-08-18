@@ -1,13 +1,26 @@
-# Dokumentation zum OMS (Order Management System) der Firma BeeWaTec
-### *Zielgruppe: Inbetriebnahme-Personal eines FTS mit OMS*
+# MkDocker
+MkDocs in Docker container. 
 
-## Funktionsbeschreibung
-Das OMS dient als "Eingabe"-Terminal für Fahraufträge, der Visualierung von digitalen Ein- und Ausgängen und der Anzeige von Fehler- und Statusmeldungen. Die Oberfläche des OMS ist web-basiert, Benutzerinteraktion (z.B. Anfordern eines Fahrzeuges zum Abtransport einer Palette zu einem bestimmten Ziel) ist durch den eingebauten Touch-Screen möglich. Weiterhin sind bei einigen Ausführungen auch "Hardware"-Taster oder Sensoren vorgesehen, die FTS-Aufträge auslösen können. Die Funktionalität ist in großem Umfang durch eine Konfigurations-Software konfigurierbar. Nähere Informationen und weiterführende Links finden sich in den folgenden Dokumenten:
+## Usage
 
-## [1. Funktionsprinzip](./working_principle/working_principle_main.md)
+Clone this repository. Write docs to `container/mkdocs/docs`.
 
-## [2. Konfiguration des OMS](./configuration/configuration_main.md)
 
-## [3. Installation des OMS auf dem Zielsystem](./installation/installation_main.md)
+## Develop docs
+For development start with docker-compose:
 
-## [4. Die AppWare des OMS](./appware/appware_main.md)
+```
+docker-compose -f docker-compose-dev.yml up
+```
+
+Container starts an page is running on port 8080. You can live edit.
+
+
+## Run in production
+
+For production start with docker-compose:
+
+```
+docker-compose up -d
+```
+

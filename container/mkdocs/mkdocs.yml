@@ -1,0 +1,23 @@
+site_name: MkDocs Test
+dev_addr: '0.0.0.0:8080'
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+theme:
+  name: material
+  language: de
+  font: false
+  favicon: favicon.png
+  logo: favicon.png
+
+site_author: ""
+extra_css:
+    - css/extra.css
+nav:
+  - Home: index.md
+  - Funktionsprinzip: working_principle/working_principle_main.md
+  - Konfiguration des OMS: configuration/configuration_main.md
+  - Die AppWare des OMS: appware/appware_main.md
+  - Installation des OMS auf dem Zielsystem: installation/installation_main.md
+  - Impressum: legal/imprint.md
