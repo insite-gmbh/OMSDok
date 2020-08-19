@@ -14,13 +14,13 @@ Streng genommen machen mehrere Projekte nur auf einem Inbetriebnahme-Laptop Sinn
 
 ### Projektauswahl
 
-![Projektauswahl](./ProjectSel.png?raw=true "Projektauswahl-Menü")
+![Projektauswahl](./ProjectSel.PNG?raw=true "Projektauswahl-Menü")
 
 Durch einen Klick auf das aktuell ausgewählte Projekt in der rechten oberen Ecke des GUI-Fenster öffnet sich das Projektauswahl-Menü. Ab dem zweiten Eintrag erscheinen die vorhandenen Projekte und können entsprechend aktiviert werden. Über den ersten Eintrag "Projekte verwalten" gelangt man auf die Seite zur Projektverwaltung, in welcher neue Projekte angelegt, existierende Projekte gelöscht und deren Daten verändert werden können.
 
 ### Projektverwaltungs-Seite
 
-![Projektverwaltung](./projectmgmt.png?raw=true "Projektverwaltungs-Seite")
+![Projektverwaltung](./projectmgmt.PNG?raw=true "Projektverwaltungs-Seite")
 
 Durch die Eingabe eines neuen Projektnamens und anschließendem Klick auf "HINZUFÜGEN" wird ein neues Projekt angelegt. Für dieses und die existierenden Projekte können folgende Einstellungen vorgenommen werden:
 * Typ der Leitsteuerung

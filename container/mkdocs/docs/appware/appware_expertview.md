@@ -25,6 +25,3 @@ Entsprechend der Standardansicht erscheinen hier Popup-Meldungen, welche die Üb
 
 ### Zurück zur Standardansicht (grüner Kreis)
 Der Button, der zur Expertenansicht führt, ändert seine Darstellung und ermöglicht den Wechsel zurück zur Standardansicht.
-
-## [Zurück zur Hauptseite der AppWare](./appware_main.md)
-## [Zurück zur Hauptseite](../README.md)

@@ -13,6 +13,3 @@ Forciert die Installation eines ggf. vorhandenen Updates der AppWare. Wenn ein U
 ### Herunterfahren
 Startet das OMS neu.
 
-## Navigation
-## [Zurück zur Hauptseite der AppWare](./appware_main.md)
-## [Zurück zur Hauptseite](../README.md)
