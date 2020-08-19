@@ -13,7 +13,7 @@ Hier kann durch die letzten Systemmeldungen gescrollt werden. Im Beispiel sind d
 ### Soft Keys für die Auftragserzeugung (hellgrüner Rahmen)
 Die Soft Keys zur Auftragserzeugung stehen in verkleinerter Form auch hier zur Verfügung. Wie in der Standardanschit wird auch hier der Status der Aufträge visualisiert.  
 
-### Auftragliste (grüner Rahmen)
+### Auftragsliste (grüner Rahmen)
 Eine detaillierte Liste aller Aufträge, die von diesem OMS erzeugt wurden. 
 
 Durch Klick auf das Papierkorb-Symbol kann der jeweilige Auftrag abgebrochen werden. 

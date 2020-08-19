@@ -1,6 +1,6 @@
 # Die AppWare des OMS
 ## Übersicht
-Die AppWare selbst läuft als Service auf dem Zielsystem. Sie stellt ein API bereit, das über ein web-basiertes GUI am Touchscreen des OMS bedient werden kann. 
+Die AppWare läuft als Service auf dem Zielsystem. Sie stellt ein API bereit, das über ein web-basiertes GUI am Touchscreen des OMS bedient werden kann. 
 Das Layout der Hauptseite des GUI hängt von der Anzahl der konfigurierten Soft Keys ab. Die Texte auf den Soft Keys (hier "Auftrag 1" ... "Auftrag 16") sind konfigurierbar. 
 
 

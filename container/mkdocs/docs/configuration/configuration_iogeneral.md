@@ -9,12 +9,13 @@ Die Eingänge können 3 verschiedene Aufgaben übernehmen:
 
 * Auftragserzeugung
 
-  * jedem Eingang kann ein Auftrag zugeordnet werden
+    - jedem Eingang kann ein Auftrag zugeordnet werden
+    
 * Sperren von Fahrkursbereichen
   
-  * jedem Eingang kann ein Fahrkursbereich zugeordnet werden
+    - jedem Eingang kann ein Fahrkursbereich zugeordnet werden
 
-  * *wird derzeit ausschließlich für Bereiche um Brandschutztore verwendet*
+    - *wird derzeit ausschließlich für Bereiche um Brandschutztore verwendet*
 
 * Auswertung eines Feueralarm-Signals (nur ein Eingang)
 
