@@ -1,0 +1,11 @@
+FROM alpine/git as cloning
+# FROM alpine
+ARG SSH_PRIVATE_KEY
+RUN mkdir /root/.ssh/
+RUN echo "${SSH_PRIVATE_KEY}" > /root/.ssh/github_rsa
+RUN chmod 400 /root/.ssh/github_rsa
+
+# make sure your domain is accepted
+RUN touch /root/.ssh/known_hosts
+RUN ssh-keyscan bitbucket.org >> /root/.ssh/known_hosts
+RUN git clone git@github.com:insite-gmbh/OMSDok.git

@@ -1,0 +1,7 @@
+FROM alpine
+ARG SSH_PRIVATE_KEY
+RUN mkdir /root/.ssh/
+RUN echo "${SSH_PRIVATE_KEY}" > /root/.ssh/github_rsa
+RUN chmod 400 /root/.ssh/github_rsa
+RUN apk update && apk upgrade && apk add --no-cache bash git openssh
+

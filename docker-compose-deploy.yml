@@ -4,6 +4,7 @@ services:
     build:
       context: ./container
       dockerfile: Dockerfile-deploy
+      image: omsdok_docs_deploy
     ports:
       - 8080:8080
     volumes:

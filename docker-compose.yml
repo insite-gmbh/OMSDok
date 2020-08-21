@@ -4,5 +4,6 @@ services:
     build:
       context: ./container
       dockerfile: Dockerfile
+    image: omsdok_docs
     ports:
       - 8080:80
