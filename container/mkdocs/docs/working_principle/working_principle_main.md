@@ -2,9 +2,8 @@
 
 ## Download der "AppWare"
 
-Die Applikation, die auf einem OMS ausgeführt wird, und die dazugehörige Konfiguration bezeichnen wir als "AppWare". 
-
-Das OMS verfügt nach der Basisinstallation ab Werk lediglich über einen "Bootstrapper", welcher die AppWare von dem OMSConfigService bezieht. Der OMSConfigService ist in der Regel auf einem Konfigurations-Server im Produktions-Netzwerk oder einem (normalerweise nur temporär verbundenen) Inbetriebnahme-Laptop installiert.  
+Normalerweise ist ab Werk auf einem OMS ein Bootstrapper und ein aktueller Stand der OMS-Applikation und möglicherweise eine Grundkonfiguration vorinstalliert. 
+Die OMS-Applikation und die dazugehörige Konfiguration bezeichnen wir als "AppWare". Sollte die AppWare nicht installiert sein, oder ein Update vorliegen, kann das OMS diese über den Bootstrapper und eine Netzwerkverbindung von dem OMSConfigService herunterladen. Der OMSConfigService ist in der Regel auf einem Konfigurations-Server im Produktions-Netzwerk oder einem (normalerweise nur temporär verbundenen) Inbetriebnahme-Laptop installiert.  
 
 Der Download der AppWare erfolgt über HTTP, in der Regel über die im OMS eingebaute WLAN-Netzwerkkarte oder alternativ über Kabel. Um den OMSConfigService im Netzwerk zu finden, kann der Bootstrapper ein UDP-Broadcast auslösen, der vom OMSConfigService entsprechend beantwortet wird.
 
